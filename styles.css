@@ -46,7 +46,7 @@ a {
 	flex-direction: column;
 }
 
-main .search_bar {
+main .search {
 	height: 45px;
 	width: 50vw;
 	background-color: #FFFFF0;
@@ -55,7 +55,7 @@ main .search_bar {
 	border-radius: 50px;
 }
 
-.searchbtn {
+.search_bar {
 	height: 40px;
 	width: 150px;
 	padding: 10px;
