@@ -46,7 +46,7 @@ a {
 	flex-direction: column;
 }
 
-main .search-bar {
+main .search_bar {
 	height: 45px;
 	width: 50vw;
 	background-color: #FFFFF0;
