@@ -1,1 +1,68 @@
 /*  your css code here. If applicable */
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px;
+}
+
+.header span, button {
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #3B3B3B;
+}
+
+.header button {
+	background-color: dodgerblue;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 70px;
+	border-radius: 3px;
+}
+
+.footer {
+	background-color: #DBDBDB;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.footer a{
+	margin: 0 10px;
+	color: #3B3B3B;
+}
+
+.main {
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+main .search-bar {
+	height: 45px;
+	width: 50vw;
+	background-color: #FFFFF0;
+	box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+	border-color: rgba(223, 225, 229, 0);
+	border-radius: 50px;
+}
+
+.searchbtn {
+	height: 40px;
+	width: 150px;
+	padding: 10px;
+	margin: 40px;
+	border: none;
+	border-radius: 8px;
+	font-size: 15px;
+	color: #696969;
+	font-weight: bold;
+}
